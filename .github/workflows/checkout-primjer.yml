@@ -1,0 +1,17 @@
+name: Checkout
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checkout-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files WITHOUT checkout
+        run: ls -la
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: List files AFTER checkout
+        run: ls -la
