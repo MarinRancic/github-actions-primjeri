@@ -1,0 +1,15 @@
+{
+  "name": "github-actions-primjeri",
+  "version": "1.0.0",
+  "description": "Ovo je readme za github-actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
